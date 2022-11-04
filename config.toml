@@ -1,0 +1,10 @@
+[cloudflare]
+expid = '' # expression ID (string)
+firewallid = '' # Firewall ID (string)
+email = '' # Email attached to your cloudflare account (string)
+apikey = '' # Global API Key (string)
+[settings]
+sleep = 1
+uamtime = 65 # How long UAM should be enalbed for (int) seconds
+cpumax = 20.5 # Max cpu usage before UAM is enabled (float)
+reqdebug = false # Display Cloudflare API Request Information (boolean)
