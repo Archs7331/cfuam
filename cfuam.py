@@ -7,7 +7,7 @@ import toml
 
 config = toml.load('config.toml')
 
-url = "https://api.cloudflare.com/client/v4/zones/089013deefe003963a8efee030eff424/firewall/rules"
+url = "https://api.cloudflare.com/client/v4/zones//firewall/rules"
 expid = config.get('cloudflare').get('expid')
 firewallid = config.get('cloudflare').get('firewallid')
 email = config.get('cloudflare').get('email')
